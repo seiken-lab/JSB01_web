@@ -1,4 +1,4 @@
-baseURL = 'https://jsb01.seiken-lab.com/'
+baseURL = 'https://seiken-lab.github.io/JSB01_web/'
 languageCode = 'ja'
 # paginate = 5
 pygmentsUseClasses = true
@@ -15,28 +15,40 @@ noClasses = false
 [menu]
 
 [[menu.main]]
-identifier = 'usage'
-name = 'usage'
-url = '/usage/'
+identifier = 'feature'
+name = '特徴'
+url = '/feature/'
 weight = 10
+
+[[menu.main]]
+identifier = 'usage'
+name = '使い方'
+url = '/usage/'
+weight = 20
+
+[[menu.main]]
+identifier = 'specification'
+name = '製品仕様'
+url = '/specification/'
+weight = 30
+
+[[menu.main]]
+identifier = 'purchase'
+name = 'ご購入'
+url = '/purchase/'
+weight = 40
 
 [[menu.main]]
 identifier = 'blog'
 name = 'blog'
 url = '/blog/'
-weight = 20
+weight = 100
 
 [[menu.main]]
-identifier = 'specification'
-name = 'specification'
-url = '/specification/'
-weight = 30
-
-[[menu.main]]
-identifier = 'tags'
-name = 'tags'
-url = '/tags/'
-weight = 40
+identifier = 'developers'
+name = '開発者情報'
+url = '/developers/'
+weight = 200
 
 [minify]
 disableXML = true
@@ -46,21 +58,21 @@ minifyOutput = true
 DateFormat = 'January 2, 2006'
 ShowBreadCrumbs = false
 ShowCodeCopyButtons = false
-ShowPostNavLinks = true
+ShowPostNavLinks = false
 ShowReadingTime = false
 ShowRssButtonInSectionTermList = false
-ShowShareButtons = true
+ShowShareButtons = false
 ShowWordCount = false
 UseHugoToc = true
 # author = 'Me'
 comments = false
 defaultTheme = 'auto'
-description = 'Seiken Laboratory is a blog about programming, technology, and more.'
+description = 'JSB01 is a device that assists visually impaired people to walk safely using an ultrasonic sensor.'
 disableScrollToTop = true
 disableSpecial1stPost = false
 disableThemeToggle = false
 env = 'production'
-hideSummary = true
+hideSummary = false
 hidemeta = true
 # images = ['<link or path of image for opengraph, twitter-cards>']
 # keywords = ['Blog', 'Portfolio', 'PaperMod']
@@ -105,7 +117,7 @@ minMatchCharLength = 0
 shouldSort = true
 threshold = 0.4
 
-[params.homeInfoParams]
+# [params.homeInfoParams]
 Content = 'Welcome to JSB01 website'
 Title = 'Hi there 👋'
 

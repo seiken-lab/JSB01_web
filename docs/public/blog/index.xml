@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>JSB01ブログ on JSB01</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in JSB01ブログ on JSB01</description>
+    <generator>Hugo -- 0.148.0</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 15 Jul 2025 08:13:04 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>視覚支援機器体験会2025 in KURUME</title>
+      <link>http://localhost:1313/blog/250713/</link>
+      <pubDate>Tue, 15 Jul 2025 08:13:04 +0900</pubDate>
+      <guid>http://localhost:1313/blog/250713/</guid>
+      <description>&lt;p&gt;7月13日に福岡県久留米市で行われた『視覚支援機器体験会2025 in KURUME』に、出店しました。JSB01初めての出店となりました。&lt;/p&gt;
+&lt;p&gt;当日手に取ってくださった皆様ありがとうございました！また、主催の方々ありがとうございました。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
